@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata and document settings -->
+  <meta charset="UTF-8"> <!-- Character encoding is set to UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design meta tag -->
+  <title>Tables and Forms</title> <!-- Page title displayed in the browser tab -->
+  <link rel="stylesheet" href="style.css"> <!-- Link to external CSS stylesheet -->
+</head>
+<body>
+  <!-- Form container to hold the form elements -->
+  <div class="form-container">
+    <!-- HTML form -->
+    <form action="">
+      
+      <!-- Label for first name input field -->
+      <label for="fname">First name</label><br>
+      <!-- Input field for first name with a placeholder and required validation -->
+      <input type="text" id="fname" name="Firstname" placeholder="John" required><br>
+
+      <!-- Label for last name input field -->
+      <label for="lname">Last name</label><br>
+      <!-- Input field for last name with a placeholder and required validation -->
+      <input type="text" id="lname" name="Last name" placeholder="Smith" required><br>
+
+      <!-- Label for mobile number input field -->
+      <label for="Mnumber">Mobile Number</label><br>
+      <!-- Input field for mobile number with a placeholder -->
+      <input type="number" value="number" name="number" id="numberinput" placeholder="0123456789"><br>
+
+      <!-- Label for date of birth input field -->
+      <label for="dob">Date of Birth</label><br>
+      <!-- Input field for selecting date of birth -->
+      <input type="date" id="dob" name="date of Birth"><br>
+
+      <!-- Label for gender radio buttons -->
+      <label for="Gender">Gender</label><br>
+      <!-- Radio button group for gender selection -->
+      <div class="gender">
+        <!-- Male option with default checked state -->
+        <input type="radio" name="Gender" checked>Male<br>
+        <!-- Female option -->
+        <input type="radio" name="Gender">Female<br>
+        <!-- Other option -->
+        <input type="radio" name="Gender">Other<br><br>
+      </div>
+
+      <!-- Label for email input field -->
+      <label for="email">Email</label><br>
+      <!-- Input field for email with a placeholder and required validation -->
+      <input type="email" id="email" name="email" placeholder="abc@gmail.com" required><br>
+
+      <!-- Textarea for user to provide additional information -->
+      <textarea name="" id="" placeholder="Tell us about yourself.."></textarea>
+      <br>
+
+      <!-- Submit button to send form data -->
+      <input type="submit" value="Submit"> &nbsp;&nbsp; <!-- &nbsp; adds spaces between submit and reset buttons -->
+      <!-- Reset button to clear form fields -->
+      <input type="reset" value="Reset">
+      
+    </form>
+  </div>
+</body>
+</html>
